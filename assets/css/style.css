@@ -1,0 +1,354 @@
+body {
+  font-size: 18px;
+  font-family: 'PT Serif', serif;
+}
+
+hr {
+  width: 15rem;
+  height: 1px;
+  background-color: #FFC107;
+}
+/* TITRES */
+h1 {
+  color: white;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 33px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+  text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+  height: 100px;
+  background-color: transparent;
+  transition: 0.7s;
+}
+
+.opaque {
+  height: 65px;
+  background-color: rgb(0, 0, 0, 0.8);
+  transition: 0.7s;
+}
+
+.nav-link {
+  color: white;
+  font-size: 19px;
+}
+
+.nav-pills > .nav-item > .nav-link:hover { color: #FFC107; }
+
+.nav-link.active {
+  color: #FFC107 !important;
+  background-color: transparent !important;
+}
+
+#name {
+  padding-left: 3%;
+  color: #FFC107;
+  font-size: 50px;
+  line-height: 40px;
+  font-family: 'Allura', cursive;
+}
+
+/* PRESENTATION */
+
+#presentationTop {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+}
+
+#presentationBottom {
+  margin-bottom: 10rem;
+}
+
+.circle {
+  width: 155px;
+  height: 155px;
+  border-radius: 80px;
+  font-size: 27px;
+  color: #fff;
+  padding-top: 2rem;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(0, 0, 0, 0.8);
+  font-family: 'Lobster', cursive;
+  border: 1px solid #FFC107;
+}
+
+#parallax {
+  background-image: url(../img/parallax.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#header {
+  background-image: url(../img/headerImg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 55rem;
+  border-bottom: 1px solid grey;
+}
+
+.fa-car,
+.fa-flag-usa {
+  font-size: 35px;
+}
+/* EXPERIENCES FORMATIONS */
+#experiencesRow {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  min-height: 800px;
+}
+
+/* COMPETENCES */
+#skillRow {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url(../img/skillBackground.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.skillul > li {
+  padding-left: 40%;
+}
+/* PROGRESSBAR */
+.progress-bar {
+  padding-left: 7%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.progress {
+  margin: 10px;
+  background-color: rgba(96, 125, 139, 0.7);
+  border-radius: 20px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid black;
+}
+
+#atombar { background-color: #1aaf5d; }
+#bootstrapbar { background-color: #563e7c; }
+#jquerybar { background-color: #0769ad; }
+#linuxbar { background-color: #263238; }
+#angularbar { background-color: #dd0031; }
+#htmlbar { background-color: #e44d26; }
+#cssbar { background-color: #35a8db; }
+#jsbar { background-color: #f1bf26; }
+#phpbar { background-color: #6c7eb7; }
+
+/* PROJETS */
+#projectsRow {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.projectLink {
+  color: black;
+}
+
+.projectLink:hover {
+  color: black;
+}
+
+
+.projectCard {
+  position: relative;
+  width: 50%;
+}
+
+.projectCard:hover > .projectImg {
+  opacity: 0.3;
+}
+
+.projectCard:hover > .middle {
+  opacity: 1;
+}
+
+.projectImg {
+  opacity: 1;
+  transition: .5s ease;y
+}
+
+.projectText {
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 22px;
+  padding: 7px 20px;
+}
+.middle {
+  background-color: #FFC107;
+  border-radius: 10%;
+  transition: 0.4s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+
+/* CONTACT */
+#contactRow {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+  color: white;
+}
+
+/* couleurs font-awesome */
+.fa-user,
+.fa-car,
+.fa-flag-usa,
+.fa-guitar,
+.fa-film,
+.fa-gamepad,
+.fa-bars,
+.fa-code-branch,
+.fa-desktop,
+.fa-file-code,
+.fa-download {
+  color: #FFC107;
+  font-size: 26px;
+}
+
+.fa-at,
+.fa-mobile-alt {
+  font-size: 31px;
+  color: #FFC107;
+  justify-content: center;
+}
+
+.fa-linkedin,
+.fa-github {
+  color: black;
+  font-size: 60px;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover {
+  color: #FFC107;
+  transition: 0.3s ease-out;
+}
+
+.fa-arrow-circle-right {
+  padding-top: 1rem;
+  font-size: 35px;
+}
+/* Timeline */
+
+.timelineDate {
+  color: #607D8B;
+}
+
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: black;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+}
+ul.timeline > li {
+  margin-top: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #FFC107;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 635px) {
+  h1 {
+    text-align: left;
+    padding-top: 20px;
+    font-size: 40px;
+  }
+  h2 { font-size: 30px; }
+
+  .navbar {
+    background-color: black;
+    height: 90px;
+  }
+
+  .navbar-toggler,
+  .nav-link,
+  .nav-item {
+    background-color: black;
+  }
+}
+
+@media (max-width: 480px) {
+  #name {font-size: 27px;}
+  body { margin-top: 10%; }
+  #contactRow { font-size: 17px; }
+  .telmail { font-size: 17px; }
+  .navbar {
+    background-color: black;
+    height: 90px;
+  }
+  .navbar-toggler { background-color: black; }
+}
+
+@media (max-width: 320px) {
+  .navbar {
+    background-color: black;
+    height: 90px;
+  }
+
+  .navbar-toggler { background-color: black; }
+  #prestitle {
+    margin-top: 43%;
+    font-size: 25px;
+  }
+
+  .fa-mobile-alt,
+  .fa-at,
+  .telmail,
+  .tel,
+  .mail,
+  .fa-car,
+  .fa-flag-usa { font-size: 13px; }
+  h2 { font-size: 20px; }
+  h3 { font-size: 20px; }
+}
